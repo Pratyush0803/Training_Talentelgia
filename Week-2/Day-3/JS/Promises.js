@@ -30,6 +30,7 @@ const helperPromise = function () {
     return promise;
 };
 
+
 async function demoPromise() {
     try {
         let message = await helperPromise();
